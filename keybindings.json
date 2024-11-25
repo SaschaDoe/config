@@ -1,0 +1,65 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "j o",
+        "command": "editor.action.accessibleViewAcceptInlineCompletion",
+        "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
+    },
+    {
+        "key": "ctrl+oem_2",
+        "command": "-editor.action.accessibleViewAcceptInlineCompletion",
+        "when": "accessibleViewIsShown && accessibleViewCurrentProviderId == 'inlineCompletions'"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+ 
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.closeSidebar",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.closeSidebar",
+        "when": "!editorTextFocus && !explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "!terminalFocus"
+    },
+{
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.closePanel",
+    "when": "terminalFocus"
+},
+
+	{
+    "key": "space a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+    "key": "ctrl+n ctrl+f",
+    "command": "workbench.action.files.openFolder",
+    "when": "!inputFocus"
+},
+	{
+  "key": "space n",
+  "command": "explorer.newFolder",
+  "when": "filesExplorerFocus && !inputFocus"
+},
+{
+    "key": "space d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && explorerViewletFocus"
+}
+]

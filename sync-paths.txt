@@ -1,0 +1,9 @@
+# Mainly auto hot key scripts
+C:\Users\sasch\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+# VS Code keybindings 
+C:\Users\sasch\AppData\Roaming\Code\User\keybindings.json
+C:\Users\sasch\AppData\Roaming\Code\User\settings.json
+
+# nvim keybindings, plugins and related scrips
+C:\Users\sasch\AppData\Local\nvim
